@@ -1,0 +1,14 @@
+.box
+{
+    background-color: lightgray;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px 10px;
+}
+
+.delete_icon
+{
+    position: absolute;
+    margin-left: 5px;
+    margin-top: -5px;
+}

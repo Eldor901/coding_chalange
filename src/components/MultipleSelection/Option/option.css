@@ -1,0 +1,15 @@
+.option_selected
+{
+    background: darkblue;
+    color: white;
+}
+
+.option_default
+{
+}
+
+.option_default:hover
+{
+    background: lightgrey;
+}
+

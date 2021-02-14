@@ -1,0 +1,39 @@
+.input_content {
+    border: 2px solid #003a8c;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.drop_select_closed {
+    display: none;
+}
+
+
+.drop_select_opened {
+    display: block;
+    position: absolute;
+
+}
+
+.block_select
+{
+    position: relative;
+}
+
+
+.content_write {
+    margin-top: 8px;
+
+}
+
+.delete
+{
+    position: absolute;
+    right: 5px;
+    padding: 2px;
+    font-size: 10px;
+    color: white;
+    border-radius: 50px;
+    background: red;
+}

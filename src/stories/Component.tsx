@@ -1,8 +1,7 @@
-import {FC} from "react";
-import MultipleSelection, {Item} from "./components/MultipleSelection/MultipleSelection";
+import React, {useState} from 'react';
+import MultipleSelection, {Item} from "../components/MultipleSelection/MultipleSelection";
 
-const App: FC = () => {
-
+const Component = () => {
     const parentValues: string[] = [];
 
     const parentItems: Item[] = [];
@@ -18,10 +17,10 @@ const App: FC = () => {
     }
 
     return (
-        <div>
+        <div style={{width: '500px'}}>
             <MultipleSelection items={parentItems} value={parentValues} onChange={handleChange} />
         </div>
     );
-};
+}
 
-export default App;
+export default Component;
